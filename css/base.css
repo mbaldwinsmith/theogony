@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+/* ============================================================
+   CSS Custom Properties
+   ============================================================ */
+:root {
+  /* Colour palette */
+  --deep-night:    #0a0c14;
+  --midnight-blue: #111827;
+  --sacred-gold:   #c9a84c;
+  --amber-warm:    #d4956a;
+  --candlelight:   #f0d080;
+  --body-text:     #c8bfa8;
+  --muted-text:    #7a6e5f;
+  --border-subtle: #2a2416;
+  --shadow-deep:   rgba(0, 0, 0, 0.7);
+
+  /* Typography */
+  --font-heading:  'Cinzel', serif;
+  --font-body:     'EB Garamond', serif;
+  --font-display:  'Cinzel Decorative', serif;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  2rem;
+  --space-xl:  4rem;
+  --space-2xl: 8rem;
+
+  /* Borders / radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Transitions */
+  --transition-base: 300ms ease;
+  --transition-slow: 600ms ease;
+}
+
+/* ============================================================
+   Reset
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--deep-night);
+  color: var(--body-text);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--sacred-gold);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+a:hover,
+a:focus {
+  color: var(--candlelight);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ============================================================
+   Base Typography
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--sacred-gold);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.5rem, 3.5vw, 2.5rem); }
+h3 { font-size: clamp(1.25rem, 2.5vw, 2rem); }
+h4 { font-size: clamp(1.1rem, 2vw, 1.5rem); }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-bottom: var(--space-md);
+  max-width: 70ch;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================================
+   Utility Classes
+   ============================================================ */
+.display-heading {
+  font-family: var(--font-display);
+  color: var(--sacred-gold);
+}
+
+.muted {
+  color: var(--muted-text);
+  font-size: 0.9rem;
+}
+
+.gold {
+  color: var(--sacred-gold);
+}
+
+.candlelight {
+  color: var(--candlelight);
+}
+
+/* ============================================================
+   Decorative Elements
+   ============================================================ */
+.divider {
+  width: 100%;
+  max-width: 800px;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--sacred-gold), transparent);
+  margin: var(--space-xl) auto;
+  border: none;
+}
+
+.divider-img {
+  display: block;
+  max-width: 800px;
+  margin: var(--space-xl) auto;
+  opacity: 0.8;
+}
+
+/* ============================================================
+   Focus & Selection
+   ============================================================ */
+:focus-visible {
+  outline: 2px solid var(--sacred-gold);
+  outline-offset: 3px;
+}
+
+::selection {
+  background-color: var(--sacred-gold);
+  color: var(--deep-night);
+}

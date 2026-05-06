@@ -1,0 +1,81 @@
+/* Full keyframe implementations added in Task 7. */
+
+/* ============================================================
+   Scroll Reveal Base State
+   ============================================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered reveal — delay set via JS or nth-child overrides */
+.reveal-stagger:nth-child(2)  { transition-delay: 0.1s; }
+.reveal-stagger:nth-child(3)  { transition-delay: 0.2s; }
+.reveal-stagger:nth-child(4)  { transition-delay: 0.3s; }
+.reveal-stagger:nth-child(5)  { transition-delay: 0.4s; }
+.reveal-stagger:nth-child(6)  { transition-delay: 0.5s; }
+.reveal-stagger:nth-child(7)  { transition-delay: 0.6s; }
+.reveal-stagger:nth-child(8)  { transition-delay: 0.7s; }
+.reveal-stagger:nth-child(9)  { transition-delay: 0.8s; }
+.reveal-stagger:nth-child(10) { transition-delay: 0.9s; }
+.reveal-stagger:nth-child(11) { transition-delay: 1.0s; }
+.reveal-stagger:nth-child(12) { transition-delay: 1.1s; }
+.reveal-stagger:nth-child(13) { transition-delay: 1.2s; }
+
+/* ============================================================
+   Keyframe Stubs (fully implemented in Task 7)
+   ============================================================ */
+
+/* Candle flicker — for decorative flame elements */
+@keyframes candleFlicker {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.75; }
+}
+
+/* Gold shimmer — for card border hover effects */
+@keyframes goldShimmer {
+  0%   { border-color: var(--sacred-gold); }
+  50%  { border-color: var(--candlelight); }
+  100% { border-color: var(--sacred-gold); }
+}
+
+/* Page load entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Star twinkle — for constellation diagram */
+@keyframes starTwinkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.85); }
+}
+
+/* ============================================================
+   Reduced Motion
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

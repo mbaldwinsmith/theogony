@@ -52,7 +52,7 @@ is an act of devotion to honest inner work, not a performance for an audience.
 ## PROJECT STRUCTURE
 
 ```
-mythopoetic-theogony/
+theogony/
 ├── index.html                  # Home / Constellation overview
 ├── methodology.html            # What is archetypal mythopoetics?
 ├── figures/

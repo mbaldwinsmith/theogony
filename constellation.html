@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Constellation — the full personal pantheon as an integrated inner ecology. Mythopoetic Theogony.">
+  <meta property="og:title" content="The Constellation | Mythopoetic Theogony">
+  <meta property="og:description" content="Thirteen figures. One inner ecology. The personal pantheon as a whole.">
+  <meta property="og:type" content="article">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <title>The Constellation | Mythopoetic Theogony</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Site navigation">
+      <a class="nav__logo display-heading" href="index.html">Mythopoetic Theogony</a>
+      <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="constellation.html" aria-current="page">Constellation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <img
+        class="hero__image"
+        src="assets/images/figures/oaken-pilgrim.png"
+        alt="A deep night sky over an ancient landscape — the backdrop of the personal pantheon"
+        width="1920"
+        height="1080"
+      >
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="display-heading">The Constellation</h1>
+        <p class="candlelight">Thirteen figures. One inner ecology.</p>
+      </div>
+    </section>
+
+    <!-- Section 1: Introduction -->
+    <section class="section">
+      <div class="container container--narrow">
+        <h2 class="reveal">A Coherent Whole</h2>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: The pantheon as a coherent whole, not 13 separate archetypes but a single inner ecology with its own relational dynamics.]</p>
+      </div>
+    </section>
+
+    <!-- Constellation Diagram (SVG — full implementation in Task 6) -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2>The Diagram</h2>
+          <p class="muted">Each star is a figure. Each line, a living relationship.</p>
+        </div>
+
+        <svg
+          class="reveal"
+          viewBox="0 0 1200 700"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Constellation diagram showing 13 archetypal figures as stars connected by lines"
+          style="width: 100%; max-width: 1200px; display: block; margin-inline: auto; background: var(--midnight-blue); border-radius: var(--radius-md); border: 1px solid var(--border-subtle);"
+        >
+          <title>Personal Pantheon Constellation Diagram</title>
+
+          <!-- Placeholder stars — positions to be refined in Task 6 -->
+          <!-- Isis-Sophia -->
+          <circle cx="600" cy="80"  r="8" fill="#c9a84c" style="animation: starTwinkle 3s ease-in-out infinite;"/>
+          <text x="600" y="65"  fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Isis-Sophia</text>
+
+          <!-- Hermes-Thoth -->
+          <circle cx="870" cy="160" r="6" fill="#c9a84c" style="animation: starTwinkle 4s ease-in-out infinite 0.5s;"/>
+          <text x="870" y="145" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Hermes-Thoth</text>
+
+          <!-- Apollo-Helios -->
+          <circle cx="980" cy="280" r="6" fill="#c9a84c" style="animation: starTwinkle 2.5s ease-in-out infinite 1s;"/>
+          <text x="980" y="265" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Apollo-Helios</text>
+
+          <!-- Fisher King -->
+          <circle cx="940" cy="420" r="6" fill="#c9a84c" style="animation: starTwinkle 3.5s ease-in-out infinite 1.5s;"/>
+          <text x="940" y="405" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Fisher King</text>
+
+          <!-- Chiron -->
+          <circle cx="820" cy="540" r="6" fill="#c9a84c" style="animation: starTwinkle 4s ease-in-out infinite 0.2s;"/>
+          <text x="820" y="525" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Chiron</text>
+
+          <!-- Hephaestus -->
+          <circle cx="660" cy="600" r="6" fill="#c9a84c" style="animation: starTwinkle 3s ease-in-out infinite 0.8s;"/>
+          <text x="660" y="585" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Hephaestus</text>
+
+          <!-- Dionysus -->
+          <circle cx="490" cy="600" r="6" fill="#c9a84c" style="animation: starTwinkle 5s ease-in-out infinite 0.3s;"/>
+          <text x="490" y="585" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Dionysus</text>
+
+          <!-- Hecate -->
+          <circle cx="330" cy="540" r="6" fill="#c9a84c" style="animation: starTwinkle 3.2s ease-in-out infinite 1.2s;"/>
+          <text x="330" y="525" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Hecate</text>
+
+          <!-- Job -->
+          <circle cx="210" cy="420" r="6" fill="#c9a84c" style="animation: starTwinkle 4.5s ease-in-out infinite 0.7s;"/>
+          <text x="210" y="405" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Job</text>
+
+          <!-- Prometheus -->
+          <circle cx="175" cy="280" r="6" fill="#c9a84c" style="animation: starTwinkle 2.8s ease-in-out infinite 1.8s;"/>
+          <text x="175" y="265" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Prometheus</text>
+
+          <!-- Orpheus -->
+          <circle cx="290" cy="160" r="6" fill="#c9a84c" style="animation: starTwinkle 3.7s ease-in-out infinite 0.4s;"/>
+          <text x="290" y="145" fill="#c8bfa8" font-family="Cinzel, serif" font-size="11" text-anchor="middle">Orpheus</text>
+
+          <!-- Oaken Pilgrim — centre -->
+          <circle cx="600" cy="360" r="10" fill="#f0d080" style="animation: starTwinkle 2s ease-in-out infinite;"/>
+          <text x="600" y="385" fill="#f0d080" font-family="Cinzel, serif" font-size="12" text-anchor="middle" font-weight="600">Oaken Pilgrim</text>
+
+          <!-- Zeus-Ammon — distant, upper right -->
+          <circle cx="1080" cy="80"  r="5" fill="#7a6e5f" style="animation: starTwinkle 6s ease-in-out infinite 2s;"/>
+          <text x="1080" y="65" fill="#7a6e5f" font-family="Cinzel, serif" font-size="10" text-anchor="middle">Zeus-Ammon</text>
+
+          <!-- Connecting lines (simplified — refined in Task 6) -->
+          <line x1="600" y1="80"  x2="600" y2="360" stroke="#2a2416" stroke-width="1"/>
+          <line x1="870" y1="160" x2="600" y2="360" stroke="#2a2416" stroke-width="1"/>
+          <line x1="330" y1="540" x2="600" y2="360" stroke="#2a2416" stroke-width="1"/>
+          <line x1="600" y1="80"  x2="330" y2="540" stroke="#2a2416" stroke-width="1" stroke-dasharray="4 4"/>
+          <line x1="940" y1="420" x2="210" y2="420" stroke="#2a2416" stroke-width="1" stroke-dasharray="4 4"/>
+        </svg>
+
+        <p class="muted reveal" style="text-align: center; margin-top: var(--space-md);">
+          Full interactive diagram implemented in Task 6. Click any star to visit that figure's page.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 2: The Axes -->
+    <section class="section">
+      <div class="container container--narrow">
+        <h2 class="reveal">The Axes</h2>
+
+        <div class="inscription reveal">
+          <p class="inscription__text">Feminine axis — Isis-Sophia &amp; Hecate</p>
+        </div>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Brief account of the feminine axis and its dynamics.]</p>
+
+        <div class="inscription reveal">
+          <p class="inscription__text">Wound axis — Fisher King, Chiron &amp; Job</p>
+        </div>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Brief account of the wound axis.]</p>
+
+        <div class="inscription reveal">
+          <p class="inscription__text">Fire axis — Prometheus, Hephaestus &amp; Apollo-Helios</p>
+        </div>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Brief account of the fire axis.]</p>
+
+        <div class="inscription reveal">
+          <p class="inscription__text">Threshold axis — Hermes-Thoth, Hecate &amp; Oaken Pilgrim</p>
+        </div>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Brief account of the threshold axis.]</p>
+
+        <div class="inscription reveal">
+          <p class="inscription__text">Sovereign axis — Zeus-Ammon, latent in the Oaken Pilgrim</p>
+        </div>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Brief account of the sovereign axis.]</p>
+      </div>
+    </section>
+
+    <!-- Section 3: The Integrating Figure -->
+    <section class="section section--dark">
+      <div class="container container--narrow">
+        <div class="prose-with-image">
+          <div class="prose-with-image__text">
+            <h2 class="reveal">The Integrating Figure</h2>
+            <p class="reveal">[PLACEHOLDER — Mark to complete: The Oaken Pilgrim as the figure formed by all others — the emergent identity shaped by the full constellation.]</p>
+          </div>
+          <div class="prose-with-image__image reveal">
+            <img
+              src="assets/images/figures/oaken-pilgrim.png"
+              alt="The Oaken Pilgrim — the integrating figure of the personal pantheon"
+              width="280"
+              height="373"
+              style="border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: The Absent and Latent -->
+    <section class="section">
+      <div class="container container--narrow">
+        <h2 class="reveal">The Absent and the Latent</h2>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: Honest account of what is underdeveloped — Zeus-Ammon, the shadow forms — and what this reveals about the ongoing work.]</p>
+      </div>
+    </section>
+
+    <!-- Section 5: How the Constellation Grows -->
+    <section class="section section--dark">
+      <div class="container container--narrow">
+        <h2 class="reveal">How the Constellation Grows</h2>
+        <p class="reveal">[PLACEHOLDER — Mark to complete: New figures appear through dreamwork and honest inner engagement. The constellation as living, not fixed.]</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="display-heading" style="font-size: 1rem;">Mythopoetic Theogony</p>
+      <p class="muted">A Personal Archetypal Mythopoetics Journal</p>
+      <p class="muted">Mark Baldwin-Smith &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a></p>
+    </div>
+  </footer>
+
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/nav.js"></script>
+
+</body>
+</html>

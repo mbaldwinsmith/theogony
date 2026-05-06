@@ -1,0 +1,200 @@
+/* ============================================================
+   Containers
+   ============================================================ */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
+
+.container--narrow {
+  max-width: 800px;
+}
+
+.container--wide {
+  max-width: 1440px;
+}
+
+/* ============================================================
+   Page Structure
+   ============================================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--deep-night);
+  border-bottom: 1px solid var(--sacred-gold);
+}
+
+.site-main {
+  padding-block: var(--space-xl);
+}
+
+.site-footer {
+  background-color: var(--midnight-blue);
+  border-top: 1px solid var(--border-subtle);
+  padding-block: var(--space-lg);
+  text-align: center;
+  color: var(--muted-text);
+  font-size: 0.9rem;
+}
+
+.site-footer p + p {
+  margin-top: var(--space-xs);
+}
+
+/* ============================================================
+   Hero Section
+   ============================================================ */
+.hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--midnight-blue);
+}
+
+.hero--full {
+  min-height: 85vh;
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.5;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    var(--shadow-deep) 0%,
+    transparent 40%,
+    transparent 60%,
+    var(--shadow-deep) 100%
+  );
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: var(--space-xl) var(--space-lg);
+  max-width: 900px;
+}
+
+.hero__content h1 {
+  margin-bottom: var(--space-md);
+}
+
+/* ============================================================
+   Grid System
+   ============================================================ */
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+/* 4 → 2 → 1 column figure grid */
+.grid--figures {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ============================================================
+   Section Layout
+   ============================================================ */
+.section {
+  padding-block: var(--space-xl);
+}
+
+.section--dark {
+  background-color: var(--midnight-blue);
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.section__header h2 {
+  margin-bottom: var(--space-sm);
+}
+
+/* ============================================================
+   Prose + Image Sidebar
+   ============================================================ */
+.prose-with-image {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.prose-with-image--reversed {
+  grid-template-columns: 280px 1fr;
+}
+
+.prose-with-image--reversed .prose-with-image__image {
+  order: -1;
+}
+
+/* ============================================================
+   Responsive — Tablet (≤ 1024px)
+   ============================================================ */
+@media (max-width: 1024px) {
+  .grid--figures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .prose-with-image,
+  .prose-with-image--reversed {
+    grid-template-columns: 1fr;
+  }
+
+  .prose-with-image--reversed .prose-with-image__image {
+    order: 0;
+  }
+}
+
+/* ============================================================
+   Responsive — Mobile (≤ 640px)
+   ============================================================ */
+@media (max-width: 640px) {
+  .container {
+    padding-inline: var(--space-md);
+  }
+
+  .grid--figures,
+  .grid--2,
+  .grid--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero--full {
+    min-height: 60vh;
+  }
+
+  .section {
+    padding-block: var(--space-lg);
+  }
+}
