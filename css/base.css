@@ -11,7 +11,7 @@
   --amber-warm:    #d4956a;
   --candlelight:   #f0d080;
   --body-text:     #c8bfa8;
-  --muted-text:    #7a6e5f;
+  --muted-text:    #9a8e80;  /* lightened from #7a6e5f to meet WCAG AA 4.5:1 */
   --border-subtle: #2a2416;
   --shadow-deep:   rgba(0, 0, 0, 0.7);
 
@@ -145,6 +145,31 @@ p:last-child {
   max-width: 800px;
   margin: var(--space-xl) auto;
   opacity: 0.8;
+}
+
+/* ============================================================
+   Skip Link
+   ============================================================ */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  z-index: 9999;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--sacred-gold);
+  color: var(--deep-night);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+  color: var(--deep-night);
 }
 
 /* ============================================================

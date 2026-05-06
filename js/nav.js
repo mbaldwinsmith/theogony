@@ -74,11 +74,11 @@
       <li><a href="${root}methodology.html"${active(isMethodology)}>Methodology</a></li>
       <li class="nav__item--dropdown">
         <button class="nav__dropdown-toggle${isFigure ? ' is-active' : ''}"
-            aria-expanded="false" aria-haspopup="listbox"
+            aria-expanded="false" aria-haspopup="true"
             aria-controls="figures-dropdown">
           The Figures ${CHEVRON_SVG}
         </button>
-        <ul class="nav__dropdown" id="figures-dropdown" role="listbox">
+        <ul class="nav__dropdown" id="figures-dropdown" role="list">
           ${figureItems}
         </ul>
       </li>
