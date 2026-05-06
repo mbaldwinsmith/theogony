@@ -288,6 +288,18 @@ Review all HTML files in the Mythopoetic Theogony project and ensure:
 
 ---
 
+## TASK 9 — Flesh out archetype pages
+**Claude Code prompt:**
+```
+Build archetype html pages more fully:
+- In nav, put archetypes in alphabetical order
+- Remove How This Figure Appeared from each archetype page
+- Make sure clear, full-res version of image is available on each page, below the hero
+- Analyse appropriate image for each page, extract key inscriptions and symbols for relevant sections
+- Write Archetypal Functions, The Shadow Forms, and Integration
+```
+---
+
 ## HUMAN TASKS (Mark to complete)
 
 ### Images

@@ -2,18 +2,18 @@
   'use strict';
 
   const FIGURES = [
-    { name: 'Isis-Sophia',   file: 'isis-sophia.html' },
-    { name: 'Hermes-Thoth',  file: 'hermes-thoth.html' },
     { name: 'Apollo-Helios', file: 'apollo-helios.html' },
-    { name: 'Fisher King',   file: 'fisher-king.html' },
     { name: 'Chiron',        file: 'chiron.html' },
-    { name: 'Hephaestus',    file: 'hephaestus.html' },
     { name: 'Dionysus',      file: 'dionysus.html' },
+    { name: 'Fisher King',   file: 'fisher-king.html' },
     { name: 'Hecate',        file: 'hecate.html' },
+    { name: 'Hephaestus',    file: 'hephaestus.html' },
+    { name: 'Hermes-Thoth',  file: 'hermes-thoth.html' },
+    { name: 'Isis-Sophia',   file: 'isis-sophia.html' },
     { name: 'Job',           file: 'job.html' },
-    { name: 'Prometheus',    file: 'prometheus.html' },
-    { name: 'Orpheus',       file: 'orpheus.html' },
     { name: 'Oaken Pilgrim', file: 'oaken-pilgrim.html' },
+    { name: 'Orpheus',       file: 'orpheus.html' },
+    { name: 'Prometheus',    file: 'prometheus.html' },
     { name: 'Zeus-Ammon',    file: 'zeus-ammon.html' },
   ];
 

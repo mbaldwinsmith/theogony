@@ -606,6 +606,18 @@
 }
 
 /* ============================================================
+   Figure Full-Resolution Portrait
+   ============================================================ */
+.figure-portrait {
+  display: block;
+  width: 100%;
+  max-width: 860px;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+/* ============================================================
    Constellation Diagram
    ============================================================ */
 /* Horizontally scrollable on small screens so SVG labels stay readable */
