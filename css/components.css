@@ -283,6 +283,38 @@
 }
 
 /* ============================================================
+   Hero — home page title treatment
+   ============================================================ */
+.hero__title {
+  background: linear-gradient(
+    135deg,
+    var(--amber-warm)   0%,
+    var(--candlelight)  45%,
+    var(--sacred-gold)  100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-md);
+}
+
+.hero__subtitle {
+  font-family: var(--font-display);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  color: var(--candlelight);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-lg);
+}
+
+.hero__intro {
+  max-width: 58ch;
+  margin-inline: auto;
+  color: var(--body-text);
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+/* ============================================================
    Figure Cards
    ============================================================ */
 .figure-card {
@@ -297,6 +329,7 @@
 .figure-card:hover {
   border-color: var(--sacred-gold);
   transform: translateY(-4px);
+  animation: goldShimmer 2s ease-in-out infinite;
 }
 
 .figure-card__image-wrap {

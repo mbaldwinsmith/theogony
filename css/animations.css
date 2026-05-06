@@ -40,9 +40,14 @@
 
 /* Gold shimmer — for card border hover effects */
 @keyframes goldShimmer {
-  0%   { border-color: var(--sacred-gold); }
-  50%  { border-color: var(--candlelight); }
-  100% { border-color: var(--sacred-gold); }
+  0%, 100% {
+    border-color: var(--sacred-gold);
+    box-shadow: 0 4px 24px rgba(201, 168, 76, 0.08);
+  }
+  50% {
+    border-color: var(--candlelight);
+    box-shadow: 0 4px 32px rgba(240, 208, 128, 0.22);
+  }
 }
 
 /* Page load entrance */
@@ -64,6 +69,27 @@
 }
 
 /* ============================================================
+   Page-load staggered entrance for home constellation grid
+   ============================================================ */
+.grid--animated .figure-card {
+  animation: fadeInUp 0.55s ease both;
+}
+
+.grid--animated .figure-card:nth-child(1)  { animation-delay: 0.05s; }
+.grid--animated .figure-card:nth-child(2)  { animation-delay: 0.12s; }
+.grid--animated .figure-card:nth-child(3)  { animation-delay: 0.19s; }
+.grid--animated .figure-card:nth-child(4)  { animation-delay: 0.26s; }
+.grid--animated .figure-card:nth-child(5)  { animation-delay: 0.33s; }
+.grid--animated .figure-card:nth-child(6)  { animation-delay: 0.40s; }
+.grid--animated .figure-card:nth-child(7)  { animation-delay: 0.47s; }
+.grid--animated .figure-card:nth-child(8)  { animation-delay: 0.54s; }
+.grid--animated .figure-card:nth-child(9)  { animation-delay: 0.61s; }
+.grid--animated .figure-card:nth-child(10) { animation-delay: 0.68s; }
+.grid--animated .figure-card:nth-child(11) { animation-delay: 0.75s; }
+.grid--animated .figure-card:nth-child(12) { animation-delay: 0.82s; }
+.grid--animated .figure-card:nth-child(13) { animation-delay: 0.89s; }
+
+/* ============================================================
    Reduced Motion
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
@@ -71,6 +97,10 @@
     opacity: 1;
     transform: none;
     transition: none;
+  }
+
+  .grid--animated .figure-card {
+    animation: none;
   }
 
   * {
