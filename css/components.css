@@ -606,6 +606,138 @@
 }
 
 /* ============================================================
+   Constellation Diagram
+   ============================================================ */
+.constellation-svg {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.constellation-svg a {
+  cursor: pointer;
+}
+
+/* Star circles — transform-box ensures scale animates from star centre */
+.star-circle {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.star-circle--centre {
+  filter: drop-shadow(0 0 8px rgba(240, 208, 128, 0.45));
+}
+
+/* Axis connection lines */
+.axis-line {
+  fill: none;
+}
+
+.axis-line--feminine {
+  stroke: var(--sacred-gold);
+  stroke-width: 1;
+  opacity: 0.45;
+}
+
+.axis-line--fire {
+  stroke: var(--amber-warm);
+  stroke-width: 1;
+  opacity: 0.4;
+}
+
+.axis-line--wound {
+  stroke: #8a7c6e;
+  stroke-width: 1;
+  opacity: 0.4;
+}
+
+.axis-line--threshold {
+  stroke: #a09080;
+  stroke-width: 1;
+  opacity: 0.35;
+  stroke-dasharray: 6 4;
+}
+
+/* Spoke lines from all figures to Oaken Pilgrim */
+.spoke-line {
+  stroke: var(--border-subtle);
+  stroke-width: 0.5;
+  opacity: 0.55;
+  fill: none;
+}
+
+/* Star labels */
+.star-label {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  fill: #c8bfa8;
+  pointer-events: none;
+  letter-spacing: 0.04em;
+}
+
+.star-label--centre {
+  font-size: 12px;
+  fill: var(--candlelight);
+  font-weight: 600;
+}
+
+.star-label--latent {
+  fill: var(--muted-text);
+  font-size: 9px;
+}
+
+/* Background scatter stars */
+.scatter-star {
+  fill: #c8bfa8;
+}
+
+/* Axis legend below diagram */
+.constellation-legend {
+  display: flex;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--space-md);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-text);
+}
+
+.legend-swatch {
+  width: 28px;
+  height: 2px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.legend-swatch--feminine  { background: var(--sacred-gold); }
+.legend-swatch--fire      { background: var(--amber-warm); }
+.legend-swatch--wound     { background: #8a7c6e; }
+.legend-swatch--threshold { background: #a09080; }
+
+/* Axis sub-headings within The Axes section */
+.axis-heading {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sacred-gold);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+}
+
+/* ============================================================
    Placeholder Image Block
    ============================================================ */
 .placeholder-image {
