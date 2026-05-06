@@ -621,14 +621,6 @@
 /* ============================================================
    Constellation Diagram
    ============================================================ */
-/* Horizontally scrollable on small screens so SVG labels stay readable */
-.constellation-svg-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-inline: calc(-1 * var(--space-lg));  /* bleed to container edge */
-  padding-inline: var(--space-lg);
-}
-
 .constellation-svg {
   width: 100%;
   max-width: 1200px;
@@ -638,16 +630,6 @@
   border: 1px solid var(--border-subtle);
 }
 
-@media (max-width: 640px) {
-  .constellation-svg-wrapper {
-    margin-inline: calc(-1 * var(--space-md));
-    padding-inline: var(--space-md);
-  }
-
-  .constellation-svg {
-    min-width: 620px;  /* keep labels readable; user scrolls horizontally */
-  }
-}
 
 .constellation-svg a {
   cursor: pointer;
