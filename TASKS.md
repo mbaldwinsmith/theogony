@@ -318,21 +318,6 @@ pixels. No text.
 Export at 32x32px as `favicon.ico` and 180x180px as `apple-touch-icon.png`.
 Place both in `assets/images/favicon/`.
 
-### Prose content
-Each figure page has placeholder sections marked [PLACEHOLDER — Mark to complete].
-These are deliberately left for you — the analysis from the conversation with Claude
-and ChatGPT provides the raw material, but the final prose should be in your own
-voice, written as personal theological journal rather than AI analysis.
-
-Suggested approach: read the conversation transcript, sit with the image, write
-freely for 20 minutes without editing, then lightly shape the result.
-
-### The Methodology page
-The methodology page is fully scaffolded but the personal narrative sections —
-particularly the dreamwork section and the LLM engagement section — need your
-own account of how this practice actually unfolded for you. The conversation
-transcript from 6 May 2026 is the primary source material.
-
 ### Domain (optional)
 Consider a custom domain. `mythopoetic-theogony.com` or `oakenpilgrim.com` are
 both available at time of writing (verify before purchasing). GitHub Pages supports
