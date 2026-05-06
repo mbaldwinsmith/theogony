@@ -95,6 +95,39 @@
   margin-bottom: var(--space-md);
 }
 
+/* Figure pages — overlay rises from bottom, title anchored there */
+.hero--figure {
+  align-items: flex-end;
+}
+
+.hero--figure .hero__overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent            0%,
+    rgba(10, 12, 20, 0.15) 40%,
+    rgba(10, 12, 20, 0.80) 72%,
+    var(--deep-night)      100%
+  );
+}
+
+.hero--figure .hero__content {
+  padding-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.hero--figure .hero__content h1 {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  margin-bottom: var(--space-sm);
+}
+
+.hero__epithet {
+  font-family: var(--font-display);
+  font-size: clamp(0.85rem, 1.8vw, 1rem);
+  color: var(--candlelight);
+  letter-spacing: 0.06em;
+  font-style: italic;
+}
+
 /* ============================================================
    Grid System
    ============================================================ */
