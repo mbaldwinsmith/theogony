@@ -374,6 +374,24 @@
 }
 
 /* ============================================================
+   Pull-quotes (section epigraphs — Cinzel Decorative)
+   ============================================================ */
+.pull-quote {
+  margin-block: var(--space-lg);
+  text-align: center;
+}
+
+.pull-quote__text {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-style: italic;
+  color: var(--sacred-gold);
+  line-height: 1.6;
+  max-width: 50ch;
+  margin-inline: auto;
+}
+
+/* ============================================================
    Inscription Panels (Pull-quotes)
    ============================================================ */
 .inscription {
@@ -471,6 +489,81 @@
   font-family: var(--font-heading);
   font-size: 0.9rem;
   color: var(--sacred-gold);
+}
+
+/* ============================================================
+   Prose sidebar image
+   ============================================================ */
+.prose-image {
+  width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+/* ============================================================
+   Attractor Basin Diagram
+   ============================================================ */
+.attractor-diagram {
+  margin: var(--space-xl) auto;
+  text-align: center;
+}
+
+.attractor-diagram__ring {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  position: relative;
+}
+
+.attractor-diagram__ring--universal {
+  width: 300px;
+  height: 300px;
+  border: 2px solid var(--muted-text);
+}
+
+.attractor-diagram__ring--cultural {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--amber-warm);
+}
+
+.attractor-diagram__ring--personal {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--sacred-gold);
+  background-color: rgba(201, 168, 76, 0.06);
+}
+
+.attractor-diagram__label {
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sacred-gold);
+}
+
+.attractor-diagram__label--outer {
+  position: absolute;
+  top: var(--space-sm);
+  color: var(--muted-text);
+}
+
+.attractor-diagram__label--mid {
+  position: absolute;
+  top: var(--space-sm);
+  color: var(--amber-warm);
+}
+
+.attractor-diagram__caption {
+  margin-top: var(--space-md);
+  font-size: 0.85rem;
+  color: var(--muted-text);
+  font-style: italic;
+  max-width: 40ch;
+  margin-inline: auto;
 }
 
 /* ============================================================
