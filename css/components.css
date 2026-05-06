@@ -135,7 +135,7 @@
 
 .nav__dropdown {
   position: absolute;
-  top: calc(100% + 1px);
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
   min-width: 210px;
@@ -144,6 +144,7 @@
   border-top: 2px solid var(--sacred-gold);
   list-style: none;
   padding: var(--space-xs) 0;
+  padding-top: calc(var(--space-xs) + 1px);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;

@@ -125,11 +125,12 @@
     }
 
     /* ── Desktop hover ──────────────────────────────────────── */
+    var closeTimer;
     dropItem.addEventListener('mouseenter', function () {
-      if (window.innerWidth > 768) openDropdown();
+      if (window.innerWidth > 768) { clearTimeout(closeTimer); openDropdown(); }
     });
     dropItem.addEventListener('mouseleave', function () {
-      if (window.innerWidth > 768) closeDropdown();
+      if (window.innerWidth > 768) { closeTimer = setTimeout(closeDropdown, 120); }
     });
 
     /* ── Close on outside click ────────────────────────────── */
