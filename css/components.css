@@ -374,6 +374,27 @@
   inset: 0;
 }
 
+/* Shadow figure card — dimmed treatment for bound/unintegrated shadows */
+.figure-card--shadow {
+  opacity: 0.65;
+  filter: saturate(0.4);
+}
+
+.figure-card--shadow:hover {
+  opacity: 0.85;
+  filter: saturate(0.6);
+  border-color: var(--muted-text);
+  animation: none;
+}
+
+.figure-card--shadow .figure-card__name {
+  color: var(--muted-text);
+}
+
+.figure-card--shadow .figure-card__inscription {
+  color: var(--muted-text);
+}
+
 /* ============================================================
    Pull-quotes (section epigraphs — Cinzel Decorative)
    ============================================================ */
