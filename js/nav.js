@@ -23,6 +23,7 @@
 
   const isHome          = /index\.html$/.test(path) || /\/$/.test(path) || path === '';
   const isMethodology   = path.includes('methodology');
+  const isTheory        = path.includes('theory');
   const isConstellation = path.includes('constellation');
   const isFigure        = inFigs;
 
@@ -72,6 +73,7 @@
     <ul class="nav__menu" id="nav-menu" role="list">
       <li><a href="${root}index.html"${active(isHome)}>Home</a></li>
       <li><a href="${root}methodology.html"${active(isMethodology)}>Methodology</a></li>
+      <li><a href="${root}theory.html"${active(isTheory)}>Theory</a></li>
       <li class="nav__item--dropdown">
         <button class="nav__dropdown-toggle${isFigure ? ' is-active' : ''}"
             aria-expanded="false" aria-haspopup="true"
