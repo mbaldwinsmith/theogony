@@ -1,5 +1,7 @@
 # Mythopoetic Theogony
 
+![Project banner](assets/images/figures/banner.png)
+
 A personal archetypal mythopoetics journal presented as a static website: fifteen figures, one inner ecology, and a set of interlinked essays on methodology, theory, and symbolic relation.
 
 ## Overview
