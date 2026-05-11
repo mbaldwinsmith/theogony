@@ -20,6 +20,13 @@ genuinely novel information.
 This goes beyond orthodox Jungian psychology and beyond standard cognitive science.
 What follows attempts to defend it honestly.
 
+Alongside this claim runs a more modest and immediately testable one: that engaging
+archetypes *as if* they possess genuine autonomous agency — regardless of whether they
+ultimately do — produces qualitatively richer, more immersive dreamwork. This
+methodological posture is available to sceptic and believer alike. The stronger
+metaphysical claim and the practical recommendation are separable; both are argued here,
+but the practice does not depend on the theory being right.
+
 ---
 
 ## I. The Jungian Foundation
@@ -221,6 +228,33 @@ and arguably richer engagements than those who treat them as personal projection
 This is not a knockdown argument. It is a reasonable working hypothesis grounded
 in philosophical and phenomenological considerations.
 
+### The Methodological Argument
+
+There is a prior claim, however, that does not depend on resolving the strong
+emergence question — and that any practitioner of dreamwork can test directly.
+
+The posture with which one enters a dream encounter shapes what the encounter can
+produce. A dreamer who approaches a figure analytically — asking what it symbolises,
+what personal complex it represents — receives analytical results: the figure yields
+meanings. A dreamer who approaches the same figure relationally — addressing it as a
+genuine other, asking what it wants, waiting for it to respond on its own terms —
+encounters something qualitatively different. The figure can resist, surprise, insist,
+fall silent. It becomes a presence rather than a symbol.
+
+This distinction does not require committing to any view about what archetypes
+ultimately are. It is observable at the level of phenomenology: the relational posture
+generates richer, more immersive, more generative engagements. Clinical practitioners
+from Jung onward, shamanic and contemplative traditions, and contemporary active
+imagination practice converge on this point across widely different theoretical
+frameworks.
+
+The practical recommendation — assume autonomous agency as the working posture —
+therefore carries its own independent warrant. Treating a figure as autonomous is
+not self-deception; it is the rational response to the observation that the encounter
+deepens when the figure is given room to be genuinely other. The stronger metaphysical
+claim is offered as the most honest interpretation of the evidence. But the practice
+does not wait on the verdict.
+
 ---
 
 ## V. The Three-Tier Model
@@ -344,26 +378,31 @@ theological engagement with the imaginal.
 
 ## IX. Why This Matters
 
-The practical stakes of this framework are substantial. Treating archetypal
-figures as mere personal projections produces one kind of inner life. Treating
-them as genuinely autonomous realities — even tentatively, even as a working
-hypothesis — produces another. The second mode of engagement is reportedly
-richer, more generative, and more healing across multiple contemplative and
-therapeutic traditions.
+The practical case for treating archetypes as autonomous agents stands
+independently of the metaphysical question. Even those unconvinced by the strong
+emergence claim have reason to adopt the relational posture: it produces richer,
+more immersive, more generative dreamwork than the analytical alternative. This is
+not a concession to wishful thinking; it is the conclusion the evidence of practice
+consistently reaches, across multiple contemplative and therapeutic traditions.
 
-If the strong emergence claim is approximately correct, the practical
-implications include:
+Accepting this posture — whatever one believes about the ultimate status of the
+figures — carries concrete implications:
 
-- Dreams deserve attention as communications from a genuinely other intelligence,
-  not merely as personal psychic byproducts
-- Inner figures deserve relationship rather than analysis — to be addressed
+- Dreams reward sustained attention as communications from a genuinely other
+  intelligence, not merely as personal psychic byproducts
+- Inner figures call for relationship rather than analysis — to be addressed
   rather than dissected
-- Creative work has the character of reception as well as construction
-- Vocation can be discerned through pattern recognition in archetypal
-  constellations, not invented through ego planning
+- Creative work can be received as well as constructed
+- Vocation emerges through pattern recognition in archetypal constellations
+  rather than invented through ego planning
 
-These are practical commitments grounded in theoretical claims. The theoretical
-work matters because it changes what the practice is.
+These orientations are available to the committed sceptic as much as to the
+convinced. The stronger claim — that these figures are, in some real sense, what
+they present themselves as being — is offered as the most honest interpretation of
+the accumulated phenomenological and theoretical evidence. But that claim and the
+practical recommendation are separable. The theoretical work matters because it
+changes what the practice is; the practice is worth taking up before the theory
+is settled.
 
 ---
 
