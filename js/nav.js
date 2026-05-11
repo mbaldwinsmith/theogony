@@ -2,6 +2,7 @@
   'use strict';
 
   const FIGURES = [
+    { name: 'Aphrodite',     file: 'aphrodite.html' },
     { name: 'Apollo-Helios', file: 'apollo-helios.html' },
     { name: 'Chiron',        file: 'chiron.html' },
     { name: 'Dionysus',      file: 'dionysus.html' },
