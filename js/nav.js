@@ -11,6 +11,7 @@
     { name: 'Hermes-Thoth',  file: 'hermes-thoth.html' },
     { name: 'Isis-Sophia',   file: 'isis-sophia.html' },
     { name: 'Job',           file: 'job.html' },
+    { name: 'Loki',          file: 'loki.html' },
     { name: 'Oaken Pilgrim', file: 'oaken-pilgrim.html' },
     { name: 'Orpheus',       file: 'orpheus.html' },
     { name: 'Prometheus',    file: 'prometheus.html' },
