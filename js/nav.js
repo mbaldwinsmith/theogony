@@ -33,17 +33,7 @@
     return cond ? ' class="is-active" aria-current="page"' : '';
   }
 
-  /* Inline SVG compass-rose icon — renders at any size, coloured via CSS */
-  const ICON_SVG = `<svg class="nav__icon" xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 40 40" aria-hidden="true" focusable="false">
-    <circle cx="20" cy="20" r="13" fill="none" stroke="currentColor" stroke-width="1.2"/>
-    <line x1="20" y1="7" x2="20" y2="33" stroke="currentColor" stroke-width="1.2"/>
-    <line x1="7"  y1="20" x2="33" y2="20" stroke="currentColor" stroke-width="1.2"/>
-    <line x1="11" y1="11" x2="29" y2="29" stroke="currentColor" stroke-width="0.6" stroke-dasharray="2 2"/>
-    <line x1="29" y1="11" x2="11" y2="29" stroke="currentColor" stroke-width="0.6" stroke-dasharray="2 2"/>
-    <polygon points="20,5 17.5,14 20,12.5 22.5,14" fill="currentColor"/>
-    <circle cx="20" cy="20" r="2.2" fill="currentColor"/>
-  </svg>`;
+  const ICON_SVG = `<img class="nav__icon" src="${root}assets/images/icon.png" alt="" aria-hidden="true">`;
 
   const CHEVRON_SVG = `<svg class="nav__chevron" xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 12 8" aria-hidden="true" focusable="false">
